@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wout and Julie</title>
+<link href="CSS/main.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+#main_julie {
+	position: absolute;
+	left: 331px;
+	top: 195px;
+	width: 590px;
+	max-height: 0px;
+	z-index: 4;
+	overflow: hidden;
+	height: 270px;
+}
+#main_wout {
+	position: absolute;
+	left: 1122px;
+	top: 172px;
+	width: 590px;
+	max-height: 0px;
+	z-index: 4;
+	overflow: hidden;
+}
+
+#julie_DIV:hover ~ #main_julie {
+   	max-height: 461px;
+}
+#wout_DIV:hover ~ #main_wout {
+   	max-height: 473px;
+}
+#julie_DIV1 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 332px;
+	height: 88px;
+	z-index: 5;
+}
+#wout_DIV1 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 295px;
+	height: 88px;
+	z-index: 5;
+}
+</style>
+</head>
+
+<div class="index_button red_button" id="julie_DIV">
+	<a href="index_Julie.html">
+    	<div id="julie_DIV1">
+		Julie Decock
+		</div>
+  </a>
+</div>
+<div class="index_button blue_button"id="wout_DIV">
+	<a href="index_Wout.html">
+    	<div id="wout_DIV1">
+        Wouter Hendrickx
+        </div>
+        </a>
+    </a>
+</div>
+<div class="nav_button green_button" id="CV_DIV">
+  <a href="CV_Julie.html">UEA</a>
+</div>
+<div class="nav_button cyan_button" id="about_DIV">
+<a href="http://www.kuleuven.be/english/">KUL</a>
+</div>
+<div class="nav_button orange_button" id="projects_DIV">
+<a href="http://www.vub.ac.be/en/">VUB</a>
+</div>
+<div class="nav_button purple_button" id="LCARS_DIV">
+<a href="LCARS/index.htm">LCARS</a>
+</div>
+<div class="nav_button cyan_button" id="WHS_DIV">
+  <a href="https://hendec.homeserver.com">WHS</a>
+</div>
+
+
+<div id="main_julie">
+	<img src="images/Julie_face.jpg" alt="Julie" width="198" height="267" class="img_main">
+	<span class="textbox">
+	This is some stuff we will show on the main page about julie
+  	</span>    
+</div>
+<div id="main_wout">
+	<img src="images/wout_face.jpg" alt="Wout" width="255" height="179" class="img_main">
+    <span class="textbox">
+	This is some stuff we will show on the main page about wout
+  	</span>
+</div>
+
+
+
+</html>

@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background-image:url(../images/DoubleHelixHDT.jpg);
+	background-repeat: no-repeat;
+}
+#julie_DIV {
+	position: absolute;
+	left: 181px;
+	top: 9px;
+	width: 340px;
+	height: 90px;
+	z-index: 1;
+	}
+#wout_DIV {
+	position: absolute;
+	left: 1484px;
+	top: 11px;
+	width: 297px;
+	height: 90px;
+	z-index: 2;
+}
+#CV_DIV {
+	position: absolute;
+	left: 154px;
+	top: 816px;
+	width: 162px;
+	height: 144px;
+	z-index: 3;
+}
+#about_DIV {
+	position: absolute;
+	left: 442px;
+	top: 829px;
+	width: 162px;
+	height: 144px;
+	z-index: 3;
+}
+#projects_DIV {
+	position: absolute;
+	left: 845px;
+	top: 828px;
+	width: 162px;
+	height: 144px;
+	z-index: 3;
+}
+#LCARS_DIV {
+	position: absolute;
+	left: 1105px;
+	top: 819px;
+	width: 162px;
+	height: 144px;
+	z-index: 3;
+}
+#WHS_DIV {
+	position: absolute;
+	left: 1565px;
+	top: 814px;
+	width: 162px;
+	height: 144px;
+	z-index: 3;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+.index_button{
+	font:Verdana, Geneva, sans-serif;
+	font-size:32px;
+	padding:0;
+	border:none;
+	text-align:center;
+	line-height:90px;
+	font-weight: bold;
+}
+.nav_button{
+	font:Verdana, Geneva, sans-serif;
+	font-size:30px;
+	padding:0;
+	border:none;
+	text-align:center;
+	line-height:144px;
+	font-weight: bold;
+}
+
+.cyan_button a:link {color:rgb(47,216,213);}
+.cyan_button a:visited {color:rgb(47,216,213);}
+.cyan_button a:hover {color:rgb(42,131,47);}
+
+.green_button a:link {color:rgb(42,131,47);}
+.green_button a:visited {color:rgb(42,131,47);}
+.green_button a:hover {color:rgb(47,216,213);}
+
+.orange_button a:link {color:rgb(213,151,52);}
+.orange_button a:visited {color:rgb(213,151,52);}
+.orange_button a:hover {color:rgb(128,50,162);}
+
+.purple_button a:link {color:rgb(128,50,162);}
+.purple_button a:visited {color:rgb(128,50,162);}
+.purple_button a:hover {color:rgb(213,151,52);}
+
+.red_button a:link {color:rgb(113,26,43);}
+.red_button a:visited {color:rgb(113,26,43);}
+.red_button a:hover {color:rgb(54,84,148);}
+
+.blue_button a:link {color:rgb(54,84,148);}
+.blue_button a:visited {color:rgb(54,84,148);}
+.blue_button a:hover {color:rgb(113,26,43);}
+
+.img_main {
+	background-color: rgb(204,204,204);
+	padding: 2px;
+	float: left;
+	margin-right: 1em;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+}
+.textbox {
+	font:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
