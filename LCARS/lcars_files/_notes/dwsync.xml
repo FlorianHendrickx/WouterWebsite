@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="desktop1.gif" server="hendec.homeserver.com" local="130134556285542839" remote="130132866600000000" Dst="2" />
-<file name="desktop2.gif" server="hendec.homeserver.com" local="130134556297683533" remote="130132866600000000" Dst="2" />
-<file name="email.gif" server="hendec.homeserver.com" local="130134556307304083" remote="130132866600000000" Dst="2" />
-<file name="exlpore.gif" server="hendec.homeserver.com" local="130134556317474665" remote="130132866600000000" Dst="2" />
-<file name="filelist.xml" server="hendec.homeserver.com" local="130134556327315228" remote="130132866600000000" Dst="2" />
-<file name="log.gif" server="hendec.homeserver.com" local="130134556336915777" remote="130132866600000000" Dst="2" />
-<file name="network.gif" server="hendec.homeserver.com" local="130134556347336373" remote="130132866600000000" Dst="2" />
-<file name="pinkbut.gif" server="hendec.homeserver.com" local="130134556356726910" remote="130132866600000000" Dst="2" />
-<file name="purlpebut.bmp" server="hendec.homeserver.com" local="130134556367307515" remote="130132866600000000" Dst="2" />
-<file name="system.gif" server="hendec.homeserver.com" local="130134556375397978" remote="130132866600000000" Dst="2" />
-<file name="WHS.gif" server="hendec.homeserver.com" local="130134556380228254" remote="130132866600000000" Dst="2" />
-<file name="yelowbut.gif" server="hendec.homeserver.com" local="130134556383658451" remote="130132866600000000" Dst="2" />
+<file name="system.gif" server="192.168.0.10" local="130132901858614594" remote="130132902600000000" Dst="2" />
+<file name="network.gif" server="192.168.0.10" local="130132901856254459" remote="130132902600000000" Dst="2" />
+<file name="WHS.gif" server="192.168.0.10" local="130132901857044504" remote="130132902600000000" Dst="2" />
+<file name="exlpore.gif" server="192.168.0.10" local="130132901854154338" remote="130132902600000000" Dst="2" />
+<file name="email.gif" server="192.168.0.10" local="130132901852714256" remote="130132902600000000" Dst="2" />
+<file name="log.gif" server="192.168.0.10" local="130132901856404467" remote="130132902600000000" Dst="2" />
+<file name="desktop1.gif" server="192.168.0.10" local="130132901852004215" remote="130132902600000000" Dst="2" />
+<file name="desktop2.gif" server="192.168.0.10" local="130132901852134223" remote="130132902600000000" Dst="2" />
+<file name="filelist.xml" server="192.168.0.10" local="130132901854284346" remote="130132902600000000" Dst="2" />
+<file name="pinkbut.gif" server="192.168.0.10" local="130132901856414468" remote="130132902600000000" Dst="2" />
+<file name="purlpebut.bmp" server="192.168.0.10" local="130132901856784489" remote="130132902600000000" Dst="2" />
+<file name="yelowbut.gif" server="192.168.0.10" local="130132901859064619" remote="130132902600000000" Dst="2" />
 </dwsync>
