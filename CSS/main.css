@@ -23,6 +23,22 @@ body {
 	height: 90px;
 	z-index: 2;
 }
+#julie_DIV1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 340px;
+	height: 90px;
+	z-index: 2;
+}
+#wout_DIV1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 297px;
+	height: 90px;
+	z-index: 2;
+}
 #CV_DIV {
 	position: absolute;
 	left: 154px;
@@ -33,10 +49,10 @@ body {
 }
 #about_DIV {
 	position: absolute;
-	left: 442px;
-	top: 829px;
-	width: 162px;
-	height: 144px;
+	left: 437px;
+	top: 827px;
+	width: 165px;
+	height: 148px;
 	z-index: 3;
 }
 #projects_DIV {
@@ -112,6 +128,52 @@ a:active {text-decoration: none;}
 .blue_button a:visited {color:rgb(54,84,148);}
 .blue_button a:hover {color:rgb(113,26,43);}
 
+
+
+/* styling for the text sections */
+
+section {
+	font: Verdana, Geneva, sans-serif;
+	font-size: 25px;
+	padding: 5px;
+	text-align: justify;
+}
+.textbox_main {
+	max-height: 0px;
+	overflow: hidden;
+	z-index: 4;
+}
+.textbox_julie {
+	color: rgb(113,26,43);
+}
+.textbox_wout {
+	color: rgb(54,84,148);
+}
+
+/* positioning for the text sections */
+.textbox_main_julie {
+	position: absolute;
+	left: 331px;
+	top: 195px;
+	width: 590px;
+}
+.textbox_main_wout {
+	position: absolute;
+	left: 1122px;
+	top: 172px;
+	width: 590px;
+}
+.textbox_about {
+	position: absolute;
+	left: 173px;
+	top: 187px;
+	width: 1616px;
+	height: 528px;
+	z-index: 1;
+	background-color: rgba(255,255,255,.8);
+}
+
+/* Image styling */
 .img_main {
 	background-color: rgb(204,204,204);
 	padding: 2px;
@@ -122,8 +184,4 @@ a:active {text-decoration: none;}
 	-ms-transition: all;
 	-o-transition: all;
 	transition: all;
-}
-.textbox {
-	font:Verdana, Geneva, sans-serif;
-	font-size:18px;
 }
