@@ -46,6 +46,10 @@
 .TabbedPanelsTabGroup {
 	margin: 0px;
 	padding: 0px;
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-ms-transition: all 5s;
+	-o-transition: all 5s;
 }
 
 /* This is the selector for the TabbedPanelsTab. This container houses
@@ -88,7 +92,8 @@
  * and exits the container.
  */
 .TabbedPanelsTabHover {
-	background-color: #CCC;
+	background-color: rgb(54,84,148);
+	color:white;
 }
 
 /* This selector is an example of how to change the appearance of a tab button
@@ -104,7 +109,6 @@
  */
 .TabbedPanelsTabSelected {
 	background-color: rgb(113,26,43);
-	border-bottom: 1px solid rgb(113,26,43);
 	border-top-color: rgb(113,26,43);
 	border-right-color: rgb(113,26,43);
 	border-left-color: rgb(113,26,43);
@@ -121,6 +125,10 @@
 	text-decoration: none;
 }
 
+.TabbedPanelsTab a:hover {
+	color: rgb(54,84,148);
+	text-decoration: none;
+}
 /* This is the selector for the ContentGroup. The ContentGroup container houses
  * all of the content panels for each tabbed panel in the widget. For our
  * default style, this container provides the background color and borders that
@@ -140,6 +148,9 @@
 	color: rgb(113,26,43);
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 18px;
+	height: 750px;
+	padding: 30px;
+	overflow: scroll;
 }
 
 /* This is the selector for the Content panel. The Content panel holds the
@@ -217,7 +228,6 @@
  */
 .VTabbedPanels .TabbedPanelsTabSelected {
 	background-color: #EEE;
-	border-bottom: solid 1px #999;
 }
 
 /* This selector floats the content panels for the widget so that they
@@ -229,6 +239,10 @@
 	padding: 0px;
 	width: 30em;
 	height: 20em;
+}
+
+.TabbedPanelsContent li {
+	margin-bottom:1em;
 }
 
 /* Styles for Printing */
