@@ -46,6 +46,10 @@
 .TabbedPanelsTabGroup {
 	margin: 0px;
 	padding: 0px;
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-ms-transition: all 5s;
+	-o-transition: all 5s;
 }
 
 /* This is the selector for the TabbedPanelsTab. This container houses
@@ -122,6 +126,10 @@
 	text-decoration: none;
 }
 
+.TabbedPanelsTab a:hover {
+	color: rgb(54,84,148);
+	text-decoration: none;
+}
 /* This is the selector for the ContentGroup. The ContentGroup container houses
  * all of the content panels for each tabbed panel in the widget. For our
  * default style, this container provides the background color and borders that
@@ -232,6 +240,10 @@
 	padding: 0px;
 	width: 30em;
 	height: 20em;
+}
+
+.TabbedPanelsContent li {
+	margin-bottom:1em;
 }
 
 /* Styles for Printing */
