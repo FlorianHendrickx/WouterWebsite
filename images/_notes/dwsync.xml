@@ -9,4 +9,8 @@
 <file name="google.jpg" server="192.168.0.10" local="130135383212937583" remote="130135390800000000" Dst="2" />
 <file name="linkedin.jpg" server="192.168.0.10" local="130135367492448423" remote="130135390800000000" Dst="2" />
 <file name="twitter.jpg" server="192.168.0.10" local="130135384794368036" remote="130135390800000000" Dst="2" />
+<file name="mendeley.jpg" server="192.168.0.10" local="130135463562843335" remote="130135465800000000" Dst="2" />
+<file name="orcid.jpg" server="192.168.0.10" local="130135455470850500" remote="130135465800000000" Dst="2" />
+<file name="researcherid.jpg" server="192.168.0.10" local="130135451158313837" remote="130135465800000000" Dst="2" />
+<file name="researchgate.jpg" server="192.168.0.10" local="130135432043840551" remote="130135465800000000" Dst="2" />
 </dwsync>
