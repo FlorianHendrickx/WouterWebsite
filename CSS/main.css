@@ -163,15 +163,7 @@ section {
 	top: 172px;
 	width: 590px;
 }
-.textbox_about {
-	position: absolute;
-	left: 173px;
-	top: 187px;
-	width: 1291px;
-	height: 528px;
-	z-index: 1;
-	background-color: rgba(255,255,255,.8);
-}
+
 
 /* Image styling */
 .img_main {
@@ -187,26 +179,14 @@ section {
 }
 
 /* social stuff */
-.connect {
-	position: absolute;
-	left: 1484px;
-	top: 201px;
-	width: 285px;
-	height: 439px;
-	z-index: 4;
-	text-align: center;
-}
-.connect h1 {
-	color: rgb(113,26,43);
-	font-size: 24px;
-}
+
 .connect ul {
 	list-style: none;
 	margin: 0;
 }
 .connect li {
 	float: left;
-	margin: 20px 0;
+	margin: 10px 0;
 	margin-right: 45px;
 }
 .connect li a{
@@ -244,5 +224,33 @@ a.linkedin {
 	background-position: left top;
 }
 a.linkedin:hover {
+	background-position: left bottom;
+}
+a.researchgate {
+	background-image: url(../images/researchgate.jpg);
+	background-position: left top;
+}
+a.researchgate:hover {
+	background-position: left bottom;
+}
+a.mendeley {
+	background-image: url(../images/mendeley.jpg);
+	background-position: left top;
+}
+a.mendeley:hover {
+	background-position: left bottom;
+}
+a.researcherid {
+	background-image: url(../images/researcherid.jpg);
+	background-position: left top;
+}
+a.researcherid:hover {
+	background-position: left bottom;
+}
+a.orcid {
+	background-image: url(../images/orcid.jpg);
+	background-position: left top;
+}
+a.orcid:hover {
 	background-position: left bottom;
 }
