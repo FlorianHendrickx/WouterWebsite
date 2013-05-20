@@ -140,10 +140,6 @@
  */
 .TabbedPanelsContentGroup {
 	clear: both;
-	border-left: solid 1px #CCC;
-	border-bottom: solid 1px #CCC;
-	border-top: solid 1px #999;
-	border-right: solid 1px #999;
 	background-color: rgba(113,26,43,0.2);
 	color: rgb(113,26,43);
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -151,6 +147,7 @@
 	height: 750px;
 	padding: 30px;
 	overflow: scroll;
+	border: 4px solid rgb(113,26,43);
 }
 
 /* This is the selector for the Content panel. The Content panel holds the
@@ -190,6 +187,7 @@
 .VTabbedPanels {
 	overflow: hidden;
 	zoom: 1;
+	padding: 110px 0px 0px;
 }
 
 /* This selector floats the TabGroup so that the tab buttons it contains
@@ -216,9 +214,9 @@
 .VTabbedPanels .TabbedPanelsTab {
 	float: none;
 	margin: 0px;
-	border-top: none;
-	border-left: none;
-	border-right: none;
+	border-top: 2;
+	border-left: 2;
+	border-right: 2;
 }
 
 /* This selector disables the float property that is placed on each tab button
@@ -227,7 +225,7 @@
  * the TabGroup, and its top border from the TabGroup or tab button above it.
  */
 .VTabbedPanels .TabbedPanelsTabSelected {
-	background-color: #EEE;
+	background-color: rgb(113,26,43);
 }
 
 /* This selector floats the content panels for the widget so that they
