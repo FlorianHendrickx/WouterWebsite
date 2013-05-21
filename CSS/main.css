@@ -41,17 +41,17 @@ body {
 }
 #CV_DIV {
 	position: absolute;
-	left: 154px;
-	top: 816px;
-	width: 162px;
-	height: 144px;
+	left: 152px;
+	top: 814px;
+	width: 164px;
+	height: 149px;
 	z-index: 3;
 }
 #about_DIV {
 	position: absolute;
-	left: 437px;
-	top: 827px;
-	width: 165px;
+	left: 439px;
+	top: 828px;
+	width: 170px;
 	height: 148px;
 	z-index: 3;
 }
