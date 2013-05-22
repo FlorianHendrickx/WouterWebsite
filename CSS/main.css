@@ -57,15 +57,15 @@ body {
 }
 #projects_DIV {
 	position: absolute;
-	left: 845px;
-	top: 828px;
-	width: 162px;
-	height: 144px;
+	left: 842px;
+	top: 824px;
+	width: 167px;
+	height: 151px;
 	z-index: 3;
 }
 #LCARS_DIV {
 	position: absolute;
-	left: 1105px;
+	left: 1104px;
 	top: 819px;
 	width: 162px;
 	height: 144px;
