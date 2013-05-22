@@ -8,13 +8,19 @@
 
 
 
-#julie_DIV:hover ~ #main_julie {
-   	max-height: 461px;
+#julie_DIV:hover ~ #main_wout {
+   	max-height: 0px;
 }
-#wout_DIV:hover ~ #main_wout {
+#julie_DIV:hover ~ #hidden_julie {
    	max-height: 473px;
 }
 
+#wout_DIV:hover ~ #main_julie {
+   	max-height: 0px;
+}
+#wout_DIV:hover ~ #hidden_wout {
+   	max-height: 461px;
+}
 
 </style>
 </head>
@@ -50,17 +56,31 @@
   <a href="https://hendec.homeserver.com">WHS</a>
 </div>
 
-
-<section class="textbox_main_julie textbox_main textbox_julie" id="main_julie" name="main_julie">
+<!-- stuff about julie -->
+<section class="textbox_left textbox_julie" id="main_julie" name="main_julie">
 	<p><img src="images/Julie_face.jpg" alt="Julie" width="198" height="267" class="img_main">
-    Hi I'm Julie, I'm awesome and so are you for visiting my website. I will soon update my information, and add lots of intresting stuff to this 		place. I sure hope you will be back again at some point.</p>    
+    Hi I'm Julie, I'm awesome and so are you for visiting my website. I will soon update my information, and add lots of intresting stuff to this place.<br>
+	I sure hope you will be back again at some point.
+    </p>    
 </section>
-<section class="textbox_main_wout textbox_main textbox_wout" id="main_wout" name="main_wout">
+<!-- Hidden stuff about julie -->
+<section class="textbox_right textbox_julie_hidden" id="hidden_julie" name="hidden_julie">
+	<p>
+    this stuff is super secret and shows when you hover my name
+    </p>    
+</section>
+<!-- stuff about wout -->
+<section class="textbox_right textbox_wout" id="main_wout" name="main_wout">
 	<p><img src="images/wout_face.jpg" alt="Wout" width="255" height="179" class="img_main">
- 	  This is some stuff we will show on the main page about wout
-  </p> 
+ 	This is some stuff we will show on the main page about wout
+  	</p> 
 </section>
-
+<!-- Hidden stuff about wout -->
+<section class="textbox_left textbox_wout_hidden" id="hidden_wout" name="hidden_wout">
+	<p>
+    this stuff is super secret and shows when you hover my name
+    </p>    
+</section>
 </body>
 
 

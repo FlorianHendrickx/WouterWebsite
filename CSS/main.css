@@ -137,27 +137,37 @@ section {
 	font-size: 25px;
 	padding: 5px;
 	text-align: justify;
-}
-.textbox_main {
-	max-height: 0px;
 	overflow: hidden;
-	z-index: 4;
 }
+
+/* styling for the text sections when shown */
 .textbox_julie {
 	color: rgb(113,26,43);
+	max-height: 473px;	
 }
 .textbox_wout {
 	color: rgb(54,84,148);
+	max-height: 461px;
+}
+
+/* styling for the text sections when hidden */
+.textbox_julie_hidden {
+	color: rgb(113,26,43);
+	max-height: 0px;	
+}
+.textbox_wout_hidden {
+	color: rgb(54,84,148);
+	max-height: 0px;
 }
 
 /* positioning for the text sections */
-.textbox_main_julie {
+.textbox_left {
 	position: absolute;
 	left: 331px;
 	top: 195px;
 	width: 590px;
 }
-.textbox_main_wout {
+.textbox_right {
 	position: absolute;
 	left: 1122px;
 	top: 172px;
