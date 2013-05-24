@@ -2,11 +2,14 @@
 /* CSS Document */
 
 
+/* elements on all pages */
 
 body {
 	background-image:url(../images/DoubleHelixHDT.jpg);
 	background-repeat: no-repeat;
 }
+
+/* elements on all pages (navigation )*/
 #julie_DIV {
 	position: absolute;
 	left: 181px;
@@ -43,7 +46,7 @@ body {
 	position: absolute;
 	left: 152px;
 	top: 814px;
-	width: 164px;
+	width: 168px;
 	height: 149px;
 	z-index: 3;
 }
@@ -140,7 +143,7 @@ section {
 	overflow: hidden;
 }
 
-/* styling for the text sections when shown */
+/* styling for the text sections on main page when shown */
 .textbox_julie {
 	color: rgb(113,26,43);
 	max-height: 473px;	
@@ -150,7 +153,7 @@ section {
 	max-height: 461px;
 }
 
-/* styling for the text sections when hidden */
+/* styling for the text sections on main page when hidden */
 .textbox_julie_hidden {
 	color: rgb(113,26,43);
 	max-height: 0px;	
@@ -160,7 +163,7 @@ section {
 	max-height: 0px;
 }
 
-/* positioning for the text sections */
+/* positioning for the text sections on main page */
 .textbox_left {
 	position: absolute;
 	left: 331px;
