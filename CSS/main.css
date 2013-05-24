@@ -65,10 +65,10 @@ body {
 }
 #LCARS_DIV {
 	position: absolute;
-	left: 1104px;
-	top: 819px;
-	width: 162px;
-	height: 144px;
+	left: 1106px;
+	top: 820px;
+	width: 158px;
+	height: 895px;
 	z-index: 3;
 }
 #WHS_DIV {
