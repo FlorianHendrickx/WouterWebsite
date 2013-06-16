@@ -195,20 +195,24 @@ section {
 }
 .textbox_about_julie {
 	left: 173px;
-	top: 187px;
+	top: 188px;
 	width: 1291px;
 }
 
 /* positioning for the text sections on projects page */
 #Projects_left {
 	font: Verdana, Geneva, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	position: absolute;
 	left: 50px;
 	top: 120px;
 	width: 1278px;
 	height: 670px;
 	z-index: 4;
+}
+#Projects_left  h1 {
+	font-size: 25px;
+	font-weight: bold;
 }
 #Projects_right {
 	font: Verdana, Geneva, sans-serif;
@@ -223,6 +227,7 @@ section {
 	z-index: 4;
 	border-width: 2px;
 }
+
 
 /* Image styling */
 .img_main {
@@ -265,49 +270,49 @@ a.twitter:hover {
 	background-position: left bottom;
 }
 a.google {
-	background: url(../images/google.jpg) no-repeat;
+	background: url(../images/SocialNW/google.jpg) no-repeat;
 	background-position: left top;
 }
 a.google:hover {
 	background-position: left bottom;
 }
 a.facebook {
-	background-image: url(../images/facebook.jpg);
+	background-image: url(../images/SocialNW/facebook.jpg);
 	background-position: left top;
 }
 a.facebook:hover {
 	background-position: left bottom;
 }
 a.linkedin {
-	background-image: url(../images/linkedin.jpg);
+	background-image: url(../images/SocialNW/linkedin.jpg);
 	background-position: left top;
 }
 a.linkedin:hover {
 	background-position: left bottom;
 }
 a.researchgate {
-	background-image: url(../images/researchgate.jpg);
+	background-image: url(../images/SocialNW/researchgate.jpg);
 	background-position: left top;
 }
 a.researchgate:hover {
 	background-position: left bottom;
 }
 a.mendeley {
-	background-image: url(../images/mendeley.jpg);
+	background-image: url(../images/SocialNW/mendeley.jpg);
 	background-position: left top;
 }
 a.mendeley:hover {
 	background-position: left bottom;
 }
 a.researcherid {
-	background-image: url(../images/researcherid.jpg);
+	background-image: url(../images/SocialNW/researcherid.jpg);
 	background-position: left top;
 }
 a.researcherid:hover {
 	background-position: left bottom;
 }
 a.orcid {
-	background-image: url(../images/orcid.jpg);
+	background-image: url(../images/SocialNW/orcid.jpg);
 	background-position: left top;
 }
 a.orcid:hover {
@@ -316,44 +321,44 @@ a.orcid:hover {
 
 /* BeginOAWidget_Instance_2648024: #OAWidget */
 .container {
-	width: 100%;
-	height: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	font-size: 11px;
-	border-width: 2px;
-	border-color: rgb(54,84,148);
+      width: 500px;
+      height: 100px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:20px;
+      margin-bottom:5px;
+      font-size:11px;
       }
       
       
       .item a img {
-	float: left;
-	padding: 3px;
-	margin: 5px;
-	border: 1px solid #cccccc;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
-	box-shadow: 0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
-	filter: alpha(opacity=100);
-	-moz-opacity: 1;
-	-khtml-opacity: 1;
-	opacity: .7;
+      float:left;
+      padding:3px;
+      background-color: #FFF;
+      margin: 5px;
+      border:3px solid;
+	  -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -khtml-border-radius: 3px;
+      border-radius: 3px;
+      -moz-box-shadow:0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
+			-webkit-box-shadow:0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
+			box-shadow:0 0 5px rgba(0,0,0,0.45),0px 1px 2px rgba(0,0,0,0.2);
+      
+      filter:alpha(opacity=80);
+     -moz-opacity:0.80;
+      -khtml-opacity: 0.80;
+      opacity: 0.80;
       }
       
       .item a:hover img, .item a:active img {
-	padding: 3px;
-	border: 1px solid #cccccc;
-	filter: alpha(opacity=80);
-	-moz-opacity: 0.80;
-	-khtml-opacity: 0.80;
-	opacity: 1;
-      }
+      padding:3px;
+      border:3px solid #cccccc;
+      filter:alpha(opacity=100);
+	  -moz-opacity: 1;
+      -khtml-opacity: 1;
+      opacity: 1;
+	  }
       
       .clearfix:after{
       clear:both;
@@ -363,3 +368,5 @@ a.orcid:hover {
       color:#444;
       }
 /* EndOAWidget_Instance_2648024 */
+
+
